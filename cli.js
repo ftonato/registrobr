@@ -13,7 +13,7 @@ function parse(data) {
       console.log(chalk.red.bold(escape.decodeHTML(data.reason)));
     }
 
-    if (data.suggestions) {
+    if (data.suggestions && data.suggestions.length > 0) {
       console.log(chalk.yellow('Suggestions: '))
       data.suggestions.forEach(function (item) {
         console.log("\t" + chalk.yellow.bold('- ' + data.domain + '.' + item));

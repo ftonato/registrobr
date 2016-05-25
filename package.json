@@ -2,9 +2,9 @@
   "name": "registrobr",
   "version": "1.0.0",
   "description": "Pesquise a disponibilidade de domínios desejados no registro.br",
-  "main": "registrobr",
+  "main": "index.js",
   "bin": {
-    "registrobr": "registrobr"
+    "registrobr": "cli.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/ftonato/registrobr/issues"
   },
-  "homepage": "https://github.com/ftonato/registrobr#readme"
+  "homepage": "https://github.com/ftonato/registrobr#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "entities": "^1.1.1",
+    "node-fetch": "^1.5.3",
+    "ora": "^0.2.3"
+  }
 }

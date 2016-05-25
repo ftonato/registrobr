@@ -1,0 +1,5 @@
+#!/bin/bash
+registrobr() {
+  curl -s "http://registro.br/cgi-bin/avail/?qr=$*"
+}
+registrobr ${@}

@@ -1,6 +1,6 @@
 # registrobr
 
-> Pesquise a disponibilidade de domínios desejados no registro.br
+> Pesquise a disponibilidade de domínios desejados no Registro.br
 
 ## Instalação
 
@@ -12,9 +12,11 @@ npm i -g registrobr
 
 ```sh
 $ registrobr <dominio>
-$ registrobr terra.com.br
-# {"available": false, "domain": "terra", "suggestions": ["esp.br", "etc.br", "far.br", "flog.br", "inf.br", "rec.br", "srv.br", "tmp.br", "tur.br", "wiki.br"], "fqdn": "terra.com.br", "free": false, "reason": "Motivo: Dom&iacute;nio j&aacute; registrado"}
+$ registrobr ft.com.br
 ```
+![registrobr result](registrobr.png)
+
+Há uma lista de categorias de domínio .br oferecidas pelo Registro.br, [consulte aqui](http://registro.br/dominio/categoria.html) para saber mais.
 
 ## Licença
 

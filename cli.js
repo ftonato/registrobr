@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const rbr = require('./index.js');
 const chalk = require('chalk');
 const ora = require('ora');
@@ -6,18 +7,18 @@ const url = process.argv[2] || '';
 
 function parse(data) {
   if (data.available) {
-    console.log(chalk.green('Domínio ' + chalk.bold(data.fqdn) + ' está disponível'));
+    console.log(chalk.green(`Domínio ${chalk.bold(data.fqdn)} está disponível`));
   } else {
-    console.log(chalk.red('Domínio ' + chalk.bold(data.fqdn) + ' não está disponível'));
+    console.log(chalk.red(`Domínio ${chalk.bold(data.fqdn)} não está disponível`));
     if (data.reason) {
       console.log(chalk.red.bold(escape.decodeHTML(data.reason)));
     }
 
     if (data.suggestions && data.suggestions.length > 0) {
-      console.log(chalk.yellow('Sugestões: '))
+      console.log(chalk.yellow('Sugestões: '));
       data.suggestions.forEach(function (item) {
-        console.log("\t" + chalk.yellow.bold('- ' + data.domain + '.' + item));
-      })
+        console.log('\t' + chalk.yellow.bold('- ' + data.domain + '.' + item));
+      });
     }
   }
 }

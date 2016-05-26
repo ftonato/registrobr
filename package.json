@@ -1,7 +1,7 @@
 {
   "name": "registrobr",
-  "version": "1.0.0",
-  "description": "Pesquise a disponibilidade de domínios desejados no registro.br",
+  "version": "1.0.1",
+  "description": "Pesquise a disponibilidade de domínios desejados no Registro.br",
   "main": "index.js",
   "bin": {
     "registrobr": "cli.js"
@@ -30,5 +30,8 @@
     "entities": "^1.1.1",
     "node-fetch": "^1.5.3",
     "ora": "^0.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2"
   }
 }

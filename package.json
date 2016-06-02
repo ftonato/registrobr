@@ -6,20 +6,24 @@
   "bin": {
     "registrobr": "cli.js"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push origin master && npm publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ftonato/registrobr.git"
-  },
+  "files": ["cli.js", "index.js"],
+  "repository": "ftonato/registrobr",
   "keywords": [
     "dominio",
     "registrobr"
   ],
   "author": "Ademílson F. Tonato - @ftonato",
+  "contributors": [
+    "Gabriel Pedro <contato@gpedro.net> gpedro.net"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ftonato/registrobr/issues"

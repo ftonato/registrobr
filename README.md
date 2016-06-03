@@ -1,4 +1,4 @@
-# registrobr
+# registrobr [![Build Status](https://travis-ci.org/ftonato/registrobr.svg?branch=master)](https://travis-ci.org/ftonato/registrobr)
 
 > Pesquise a disponibilidade de domínios desejados no Registro.br
 

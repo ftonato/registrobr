@@ -1,6 +1,6 @@
 {
   "name": "registrobr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pesquise a disponibilidade de domínios desejados no Registro.br",
   "main": "index.js",
   "bin": {
@@ -11,10 +11,13 @@
   },
   "preferGlobal": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "postversion": "git push origin master && npm publish"
   },
-  "files": ["cli.js", "index.js"],
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
   "repository": "ftonato/registrobr",
   "keywords": [
     "dominio",
@@ -36,6 +39,7 @@
     "ora": "^0.2.3"
   },
   "devDependencies": {
+    "ava": "^0.15.1",
     "eslint": "^2.10.2"
   }
 }

@@ -3,6 +3,7 @@ const rbr = require('./index.js');
 const chalk = require('chalk');
 const ora = require('ora');
 const escape = require('entities');
+const dns = require('dns');
 const url = process.argv[2] || '';
 
 function parse(data) {
@@ -23,10 +24,23 @@ function parse(data) {
   }
 }
 
+dns.lookup('www.google.com', err => {
+  if (err && err.code === 'ENOTFOUND') {
+    spinner.stop();
+    console.log(chalk.bold.red('É preciso estar conectado com a internet para validar o domínio.'));
+    process.exit(1);
+  }
+});
+
 if (!url || url.length < 2) {
   console.log(chalk.red('Por favor, digite uma url válida.'));
   process.exit(1);
 } else {
+  if (url.indexOf('.br') === -1) {
+    console.log(chalk.red('A url informada deve possuir a extensão .br'));
+    process.exit(1);
+  }
+
   const spinner = ora({ color: 'yellow', text: (chalk.yellow('Carregando ') + chalk.yellow.bold(url))}).start();
   rbr(url).then(function (response) {
     spinner.stop();

@@ -2,7 +2,8 @@
 'use strict';
 
 const fetch = require('node-fetch');
+const baseUrl = 'https://registro.br/ajax/avail/';
 
 module.exports = function (url) {
-  return fetch(`http://registro.br/cgi-bin/avail/?qr=${url}`).then(response => response.json());
+  return fetch(`${baseUrl}${url}`).then(response => response.json());
 };

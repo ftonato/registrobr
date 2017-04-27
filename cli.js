@@ -3,11 +3,12 @@ const rbr = require('./index.js');
 const chalk = require('chalk');
 const ora = require('ora');
 const escape = require('entities');
-const dns = require('dns');
 const url = require('url');
 var domain = process.argv[2] || '';
 
 function parse(data) {
+  console.log('LOG ERROR');
+  console.log(data);
   if (data.available) {
     console.log(chalk.green(`Domínio ${chalk.bold(data.fqdn)} está disponível`));
   } else {
@@ -24,14 +25,6 @@ function parse(data) {
     }
   }
 }
-
-dns.lookup('www.google.com', err => {
-  if (err && err.code === 'ENOTFOUND') {
-    spinner.stop();
-    console.log(chalk.bold.red('É preciso estar conectado com a internet para validar o domínio.'));
-    process.exit(1);
-  }
-});
 
 if (!domain) {
   console.log(chalk.red('Por favor, digite uma url válida.'));

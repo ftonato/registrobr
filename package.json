@@ -1,6 +1,6 @@
 {
   "name": "registrobr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pesquise a disponibilidade de domínios desejados no Registro.br",
   "main": "index.js",
   "bin": {

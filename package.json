@@ -1,13 +1,13 @@
 {
   "name": "registrobr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pesquise a disponibilidade de domínios desejados no Registro.br",
   "main": "index.js",
   "bin": {
     "registrobr": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "preferGlobal": true,
   "scripts": {

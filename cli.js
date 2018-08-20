@@ -3,12 +3,9 @@ const rbr = require('./index.js');
 const chalk = require('chalk');
 const ora = require('ora');
 const escape = require('entities');
-const url = require('url');
-var domain = process.argv[2] || '';
+let domain = process.argv[2] || '';
 
 function parse(data) {
-  console.log('LOG ERROR');
-  console.log(data);
   if (data.available) {
     console.log(chalk.green(`Domínio ${chalk.bold(data.fqdn)} está disponível`));
   } else {
@@ -17,12 +14,7 @@ function parse(data) {
       console.log(chalk.red.bold(escape.decodeHTML(data.reason)));
     }
 
-    if (data.suggestions && data.suggestions.length > 0) {
-      console.log(chalk.yellow('Sugestões: '));
-      data.suggestions.forEach(function (item) {
-        console.log('\t' + chalk.yellow.bold('- ' + data.domain + '.' + item));
-      });
-    }
+    showSuggestions(data);
   }
 }
 
@@ -37,7 +29,7 @@ if (domain.indexOf('.br') === -1) {
   console.log(chalk.red('A url informada deve possuir a extensão .br'));
   process.exit(1);
 }
-hostname = domain.substr(0, domain.indexOf('.'));
+const hostname = domain.substr(0, domain.indexOf('.'));
 
 if (hostname.length < 2 || hostname.length > 26) {
   console.log(chalk.red('O Hostname deve ter no mínimo de 2 e máximo de 26 caracteres.'));
@@ -54,9 +46,9 @@ if (parseInt(hostname) == hostname) {
   process.exit(1);
 }
 
-var regex = /([a-z0-9àáâãéêíóôõúüç]+)/g;
-var matches;
-var groups = 0;
+let regex = /([a-z0-9àáâãéêíóôõúüç]+)/g;
+let matches;
+let groups = 0;
 while (matches = regex.exec(hostname)) {
   groups++;
 }
@@ -77,3 +69,12 @@ rbr(domain).then(function (response) {
   console.log(ex);
   process.exit(1);
 });
+
+function showSuggestions(data) {
+  if (data.suggestions && data.suggestions.length > 0) {
+    console.log(chalk.yellow('Sugestões: '));
+    data.suggestions.forEach( item => {
+      console.log('\t' + chalk.yellow.bold('- ' + data.domain + '.' + item));
+    });
+  }
+}

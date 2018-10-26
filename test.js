@@ -21,7 +21,7 @@ test('testando domínio com palavras reservadas', t => {
 });
 
 test('deve retornar uma exceção quando a extensão não tiver .br', t => {
-  t.throws(execa('./cli.js', ['test.com']), /A url informada deve possuir a extensão .br/);
+  t.throws(execa('./cli.js', ['test.com']), / url informada deve possuir uma das seguintes extensões:/);
 });
 
 test('deve retornar uma exceção quando a extensão se o tamanho for menor de dois caracteres', t => {

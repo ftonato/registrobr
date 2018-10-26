@@ -1,0 +1,663 @@
+{
+    "art.br": {
+        "category_name": "Genéricos",
+        "tld_name": "art.br",
+        "tld_description": "Artes: música, pintura, folclore"
+    },
+    "com.br": {
+        "category_name": "Genéricos",
+        "tld_name": "com.br",
+        "tld_description": "Atividades comerciais"
+    },
+    "eco.br": {
+        "category_name": "Genéricos",
+        "tld_name": "eco.br",
+        "tld_description": "Atividades com foco eco-ambiental"
+    },
+    "emp.br": {
+        "category_name": "Genéricos",
+        "tld_name": "emp.br",
+        "tld_description": "Pequenas e micro-empresas"
+    },
+    "net.br": {
+        "category_name": "Genéricos",
+        "tld_name": "net.br",
+        "tld_description": "Atividades comerciais"
+    },
+    "ong.br": {
+        "category_name": "Genéricos",
+        "tld_name": "ong.br",
+        "tld_description": "Atividades no governamentais individuais ou associativas (a partir de 27/08/2018 15h)"
+    },
+    "edu.br": {
+        "category_name": "Universidades",
+        "tld_name": "edu.br",
+        "tld_description": "Instituições de ensino superior"
+    },
+    "blog.br": {
+        "category_name": "Pessoas Físicas",
+        "tld_name": "blog.br",
+        "tld_description": "Web logs"
+    },
+    "flog.br": {
+        "category_name": "Pessoas Físicas",
+        "tld_name": "flog.br",
+        "tld_description": "Foto logs"
+    },
+    "nom.br": {
+        "category_name": "Pessoas Físicas",
+        "tld_name": "nom.br",
+        "tld_description": "Pessoas Físicas"
+    },
+    "vlog.br": {
+        "category_name": "Pessoas Físicas",
+        "tld_name": "vlog.br",
+        "tld_description": "Vídeo logs"
+    },
+    "wiki.br": {
+        "category_name": "Pessoas Físicas",
+        "tld_name": "wiki.br",
+        "tld_description": "Páginas do tipo 'wiki'"
+    },
+    "adm.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "adm.br",
+        "tld_description": "Administradores"
+    },
+    "adv.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "adv.br",
+        "tld_description": "Advogados"
+    },
+    "arq.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "arq.br",
+        "tld_description": "Arquitetos"
+    },
+    "ato.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "ato.br",
+        "tld_description": "Atores"
+    },
+    "bio.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "bio.br",
+        "tld_description": "Biólogos"
+    },
+    "bmd.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "bmd.br",
+        "tld_description": "Biomédicos"
+    },
+    "cim.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "cim.br",
+        "tld_description": "Corretores"
+    },
+    "cng.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "cng.br",
+        "tld_description": "Cenógrafos"
+    },
+    "cnt.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "cnt.br",
+        "tld_description": "Contadores"
+    },
+    "ecn.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "ecn.br",
+        "tld_description": "Economistas"
+    },
+    "eng.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "eng.br",
+        "tld_description": "Engenheiros"
+    },
+    "eti.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "eti.br",
+        "tld_description": "Especialista em Tecnologia da Informação"
+    },
+    "fnd.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "fnd.br",
+        "tld_description": "Fonoaudiólogos"
+    },
+    "fot.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "fot.br",
+        "tld_description": "Fotógrafos"
+    },
+    "fst.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "fst.br",
+        "tld_description": "Fisioterapeutas"
+    },
+    "ggf.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "ggf.br",
+        "tld_description": "Geógrafos"
+    },
+    "jor.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "jor.br",
+        "tld_description": "Jornalistas"
+    },
+    "lel.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "lel.br",
+        "tld_description": "Leiloeiros"
+    },
+    "mat.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "mat.br",
+        "tld_description": "Matemáticos e Estatísticos"
+    },
+    "med.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "med.br",
+        "tld_description": "Médicos"
+    },
+    "mus.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "mus.br",
+        "tld_description": "Músicos"
+    },
+    "not.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "not.br",
+        "tld_description": "Notários"
+    },
+    "ntr.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "ntr.br",
+        "tld_description": "Nutricionistas"
+    },
+    "odo.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "odo.br",
+        "tld_description": "Dentistas"
+    },
+    "ppg.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "ppg.br",
+        "tld_description": "Publicitários e profissionais da área de propaganda e marketing"
+    },
+    "pro.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "pro.br",
+        "tld_description": "Professores"
+    },
+    "psc.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "psc.br",
+        "tld_description": "Psicólogos"
+    },
+    "qsl.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "qsl.br",
+        "tld_description": "Rádio amadores"
+    },
+    "slg.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "slg.br",
+        "tld_description": "Sociólogos"
+    },
+    "taxi.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "taxi.br",
+        "tld_description": "Taxistas"
+    },
+    "teo.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "teo.br",
+        "tld_description": "Teólogos"
+    },
+    "trd.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "trd.br",
+        "tld_description": "Tradutores"
+    },
+    "vet.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "vet.br",
+        "tld_description": "Veterinários"
+    },
+    "zlg.br": {
+        "category_name": "Profissionais liberais",
+        "tld_name": "zlg.br",
+        "tld_description": "Zoólogos"
+    },
+    "9guacu.br": {
+        "category_name": "Cidades",
+        "tld_name": "9guacu.br",
+        "tld_description": "Nova Iguaçu"
+    },
+    "abc.br": {
+        "category_name": "Cidades",
+        "tld_name": "abc.br",
+        "tld_description": "Região ABC Paulista"
+    },
+    "aju.br": {
+        "category_name": "Cidades",
+        "tld_name": "aju.br",
+        "tld_description": "Aracaju"
+    },
+    "anani.br": {
+        "category_name": "Cidades",
+        "tld_name": "anani.br",
+        "tld_description": "Ananindeua"
+    },
+    "aparecida.br": {
+        "category_name": "Cidades",
+        "tld_name": "aparecida.br",
+        "tld_description": "Aparecida"
+    },
+    "barueri.br": {
+        "category_name": "Cidades",
+        "tld_name": "barueri.br",
+        "tld_description": "Barueri"
+    },
+    "belem.br": {
+        "category_name": "Cidades",
+        "tld_name": "belem.br",
+        "tld_description": "Belém"
+    },
+    "bhz.br": {
+        "category_name": "Cidades",
+        "tld_name": "bhz.br",
+        "tld_description": "Belo Horizonte"
+    },
+    "boavista.br": {
+        "category_name": "Cidades",
+        "tld_name": "boavista.br",
+        "tld_description": "Boa Vista"
+    },
+    "bsb.br": {
+        "category_name": "Cidades",
+        "tld_name": "bsb.br",
+        "tld_description": "Brasília"
+    },
+    "campinagrande.br": {
+        "category_name": "Cidades",
+        "tld_name": "campinagrande.br",
+        "tld_description": "Campina Grande"
+    },
+    "campinas.br": {
+        "category_name": "Cidades",
+        "tld_name": "campinas.br",
+        "tld_description": "Campinas"
+    },
+    "caxias.br": {
+        "category_name": "Cidades",
+        "tld_name": "caxias.br",
+        "tld_description": "Caxias"
+    },
+    "contagem.br": {
+        "category_name": "Cidades",
+        "tld_name": "contagem.br",
+        "tld_description": "Contagem"
+    },
+    "cuiaba.br": {
+        "category_name": "Cidades",
+        "tld_name": "cuiaba.br",
+        "tld_description": "Cuiabá"
+    },
+    "curitiba.br": {
+        "category_name": "Cidades",
+        "tld_name": "curitiba.br",
+        "tld_description": "Curitiba"
+    },
+    "feira.br": {
+        "category_name": "Cidades",
+        "tld_name": "feira.br",
+        "tld_description": "Feira de Santana"
+    },
+    "floripa.br": {
+        "category_name": "Cidades",
+        "tld_name": "floripa.br",
+        "tld_description": "Florianópolis"
+    },
+    "fortal.br": {
+        "category_name": "Cidades",
+        "tld_name": "fortal.br",
+        "tld_description": "Fortaleza"
+    },
+    "foz.br": {
+        "category_name": "Cidades",
+        "tld_name": "foz.br",
+        "tld_description": "Foz do Iguaçu"
+    },
+    "goiania.br": {
+        "category_name": "Cidades",
+        "tld_name": "goiania.br",
+        "tld_description": "Goiânia"
+    },
+    "gru.br": {
+        "category_name": "Cidades",
+        "tld_name": "gru.br",
+        "tld_description": "Guarulhos"
+    },
+    "jab.br": {
+        "category_name": "Cidades",
+        "tld_name": "jab.br",
+        "tld_description": "Jaboatão dos Guararapes"
+    },
+    "jampa.br": {
+        "category_name": "Cidades",
+        "tld_name": "jampa.br",
+        "tld_description": "João Pessoa"
+    },
+    "jdf.br": {
+        "category_name": "Cidades",
+        "tld_name": "jdf.br",
+        "tld_description": "Juiz de Fora"
+    },
+    "joinville.br": {
+        "category_name": "Cidades",
+        "tld_name": "joinville.br",
+        "tld_description": "Joinville"
+    },
+    "londrina.br": {
+        "category_name": "Cidades",
+        "tld_name": "londrina.br",
+        "tld_description": "Londrina"
+    },
+    "macapa.br": {
+        "category_name": "Cidades",
+        "tld_name": "macapa.br",
+        "tld_description": "Macapá"
+    },
+    "maceio.br": {
+        "category_name": "Cidades",
+        "tld_name": "maceio.br",
+        "tld_description": "Maceió"
+    },
+    "manaus.br": {
+        "category_name": "Cidades",
+        "tld_name": "manaus.br",
+        "tld_description": "Manaus"
+    },
+    "maringa.br": {
+        "category_name": "Cidades",
+        "tld_name": "maringa.br",
+        "tld_description": "Maringá"
+    },
+    "morena.br": {
+        "category_name": "Cidades",
+        "tld_name": "morena.br",
+        "tld_description": "Campo Grande"
+    },
+    "natal.br": {
+        "category_name": "Cidades",
+        "tld_name": "natal.br",
+        "tld_description": "Natal"
+    },
+    "niteroi.br": {
+        "category_name": "Cidades",
+        "tld_name": "niteroi.br",
+        "tld_description": "Niterói"
+    },
+    "osasco.br": {
+        "category_name": "Cidades",
+        "tld_name": "osasco.br",
+        "tld_description": "Osasco"
+    },
+    "palmas.br": {
+        "category_name": "Cidades",
+        "tld_name": "palmas.br",
+        "tld_description": "Palmas"
+    },
+    "poa.br": {
+        "category_name": "Cidades",
+        "tld_name": "poa.br",
+        "tld_description": "Porto Alegre"
+    },
+    "pvh.br": {
+        "category_name": "Cidades",
+        "tld_name": "pvh.br",
+        "tld_description": "Porto Velho"
+    },
+    "recife.br": {
+        "category_name": "Cidades",
+        "tld_name": "recife.br",
+        "tld_description": "Recife"
+    },
+    "ribeirao.br": {
+        "category_name": "Cidades",
+        "tld_name": "ribeirao.br",
+        "tld_description": "Ribeirão"
+    },
+    "rio.br": {
+        "category_name": "Cidades",
+        "tld_name": "rio.br",
+        "tld_description": "Rio de Janeiro"
+    },
+    "riobranco.br": {
+        "category_name": "Cidades",
+        "tld_name": "riobranco.br",
+        "tld_description": "Rio Branco"
+    },
+    "riopreto.br": {
+        "category_name": "Cidades",
+        "tld_name": "riopreto.br",
+        "tld_description": "São José do Rio Preto"
+    },
+    "salvador.br": {
+        "category_name": "Cidades",
+        "tld_name": "salvador.br",
+        "tld_description": "Salvador"
+    },
+    "sampa.br": {
+        "category_name": "Cidades",
+        "tld_name": "sampa.br",
+        "tld_description": "São Paulo"
+    },
+    "santamaria.br": {
+        "category_name": "Cidades",
+        "tld_name": "santamaria.br",
+        "tld_description": "Santa Maria"
+    },
+    "santoandre.br": {
+        "category_name": "Cidades",
+        "tld_name": "santoandre.br",
+        "tld_description": "Santo André"
+    },
+    "saobernardo.br": {
+        "category_name": "Cidades",
+        "tld_name": "saobernardo.br",
+        "tld_description": "São Bernardo do Campo"
+    },
+    "saogonca.br": {
+        "category_name": "Cidades",
+        "tld_name": "saogonca.br",
+        "tld_description": "São Gonçalo"
+    },
+    "sjc.br": {
+        "category_name": "Cidades",
+        "tld_name": "sjc.br",
+        "tld_description": "São José dos Campos"
+    },
+    "slz.br": {
+        "category_name": "Cidades",
+        "tld_name": "slz.br",
+        "tld_description": "São Luis"
+    },
+    "sorocaba.br": {
+        "category_name": "Cidades",
+        "tld_name": "sorocaba.br",
+        "tld_description": "Sorocaba"
+    },
+    "the.br": {
+        "category_name": "Cidades",
+        "tld_name": "the.br",
+        "tld_description": "Teresina"
+    },
+    "udi.br": {
+        "category_name": "Cidades",
+        "tld_name": "udi.br",
+        "tld_description": "Uberlândia"
+    },
+    "vix.br": {
+        "category_name": "Cidades",
+        "tld_name": "vix.br",
+        "tld_description": "Vitória"
+    },
+    "agr.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "agr.br",
+        "tld_description": "Empresas agrícolas, fazendas",
+        "restriction": "Sem restrio"
+    },
+    "esp.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "esp.br",
+        "tld_description": "Esporte em geral",
+        "restriction": "Sem restrio"
+    },
+    "etc.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "etc.br",
+        "tld_description": "Empresas que não se enquadram nas outras categorias",
+        "restriction": "Sem restrio"
+    },
+    "far.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "far.br",
+        "tld_description": "Farmácias e drogarias",
+        "restriction": "Sem restrio"
+    },
+    "imb.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "imb.br",
+        "tld_description": "Imobiliárias",
+        "restriction": "Sem restrio"
+    },
+    "ind.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "ind.br",
+        "tld_description": "Indústrias",
+        "restriction": "Sem restrio"
+    },
+    "inf.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "inf.br",
+        "tld_description": "Meios de informação (rádios, jornais, bibliotecas, etc..)",
+        "restriction": "Sem restrio"
+    },
+    "radio.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "radio.br",
+        "tld_description": "Empresas que queiram enviar áudio pela rede",
+        "restriction": "Sem restrio"
+    },
+    "rec.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "rec.br",
+        "tld_description": "Atividades de entretenimento, diversão, jogos, etc...",
+        "restriction": "Sem restrio"
+    },
+    "srv.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "srv.br",
+        "tld_description": "Empresas prestadoras de serviços",
+        "restriction": "Sem restrio"
+    },
+    "tmp.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "tmp.br",
+        "tld_description": "Eventos temporários, como feiras e exposições",
+        "restriction": "Sem restrio"
+    },
+    "tur.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "tur.br",
+        "tld_description": "Empresas da área de turismo",
+        "restriction": "Sem restrio"
+    },
+    "tv.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "tv.br",
+        "tld_description": "Empresas de radiodifusão ou transmissão via Internet de sons e imagens",
+        "restriction": "Sem restrio"
+    },
+    "am.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "am.br",
+        "tld_description": "Empresas de radiodifusão sonora",
+        "restriction": "Com restrição"
+    },
+    "coop.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "coop.br",
+        "tld_description": "Cooperativas",
+        "restriction": "Com restrição"
+    },
+    "fm.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "fm.br",
+        "tld_description": "Empresas de radiodifusão sonora",
+        "restriction": "Com restrição"
+    },
+    "g12.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "g12.br",
+        "tld_description": "Instituições de ensino de primeiro e segundo grau",
+        "restriction": "Com restrição"
+    },
+    "gov.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "gov.br",
+        "tld_description": "Instituições do governo federal",
+        "restriction": "Com restrição"
+    },
+    "mil.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "mil.br",
+        "tld_description": "Forças Armadas Brasileiras",
+        "restriction": "Com restrição"
+    },
+    "org.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "org.br",
+        "tld_description": "Instituições não governamentais sem fins lucrativos",
+        "restriction": "Com restrição"
+    },
+    "psi.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "psi.br",
+        "tld_description": "Provedores de serviço Internet",
+        "restriction": "Com restrição"
+    },
+    "b.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "b.br",
+        "tld_description": "Bancos",
+        "restriction": "DNSSEC obrigatório"
+    },
+    "def.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "def.br",
+        "tld_description": "Defensorias Públicas",
+        "restriction": "DNSSEC obrigatório"
+    },
+    "jus.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "jus.br",
+        "tld_description": "Instituições do Poder Judiciário",
+        "restriction": "DNSSEC obrigatório"
+    },
+    "leg.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "leg.br",
+        "tld_description": "Instituições do Poder Legislativo",
+        "restriction": "DNSSEC obrigatório"
+    },
+    "mp.br": {
+        "category_name": "Pessoas Jurídicas",
+        "tld_name": "mp.br",
+        "tld_description": "Instituições do Ministério Público",
+        "restriction": "DNSSEC obrigatório"
+    }
+}
